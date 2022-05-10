@@ -63,9 +63,7 @@
         
       </div>
     
-    <form class='pb-3' id='contact-form' method='post' name='contact' data-netlify="true"><input type='hidden' name='form-name' value='contact' />        <div class="input-group mb-3">            <label>First Name</label>          <input id="FirstNameInput" class="p-0 form-control name-input" type="text" placeholder="First Name">          <label>Surname</label>          <input id="LastNameInput" class="p-0 form-control name-input" type="text" placeholder="Last Name">        </div>        <label>Email</label>        <div class="input-group mb-4">          <input id="EmailInput" class="p-0 form-control email-input" type="text" placeholder="Email">        </div>        <label>Message</label>        <div class="input-group mb-3">          <textarea id="TextInput" class="form-control mt-3" rows="5" placeholder="Your message" cols="50"></textarea>      </div>         <input type="submit" class="mt-2 btn-contact btn-submit" name="submit" value="submit">              </form> 
-
-
+    <form name="contact" method="POST" data-netlify="true"><p><label>Your Name: <input type="text" name="name" /></label></p><p><label>Your Email: <input type="email" name="email" /></label></p><p><label>Your Role: <select name="role[]" multiple><option value="leader">Leader</option><option value="follower">Follower</option></select></label></p><p><label>Message: <textarea name="message"></textarea></label></p><p><button type="submit">Send</button></p></form>
      
   </div>
   <div class= "col-lg-4 col-md-12 d-flex flex-column m-0 p-0 contact-right">
