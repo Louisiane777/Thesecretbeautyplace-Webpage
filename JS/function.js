@@ -15,6 +15,7 @@ function scrollFunction() {
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
   }
   // opens video in full screen
+  
   function openFullscreen(){
     if (elem.requestFullscreen){
       elem.requestFullscreen();
