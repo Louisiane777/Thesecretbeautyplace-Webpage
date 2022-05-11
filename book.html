@@ -62,19 +62,31 @@
               <p>emailme@thesecretplace.com</p>
         
       </div>
-    <form class="pb-3">
+     <form class="pb-3" name="contact" method="POST" data-netlify="true">
+
       <div class="input-group mb-3">
-        <input id="FirstNameInput" class="p-0 form-control name-input" type="text" placeholder="First Name">
+
+        <label>First Name:<input id="FirstNameInput" class="p-0 form-control name-input" type="text" placeholder="First Name" name="fName"></label>
+
         <input id="LastNameInput" class="p-0 form-control name-input" type="text" placeholder="Last Name">
+
       </div>
+
       <div class="input-group mb-4">
-        <input id="EmailInput" class="p-0 form-control email-input" type="text" placeholder="Email">
+
+        <label><input id="EmailInput" class="p-0 form-control email-input" type="text" placeholder="Email" name="lname"></label>
+
       </div>
+
       <div class="input-group mb-3">
-        <textarea id="TextInput" class="form-control mt-3" rows="5" placeholder="Your message" cols="50"></textarea>
-    </div> 
-  <a class="mt-2 btn-contact btn-submit" href="#">Submit</a>
-</form> 
+
+        <label><textarea id="TextInput" class="form-control mt-3" rows="5" placeholder="Your message" cols="50" name="message"></textarea></label>
+
+    </div>
+
+     <button type="submit" class="mt-2 btn-contact btn-submit">Submit</button>
+
+    </form>
   </div>
   <div class= "col-lg-4 col-md-12 d-flex flex-column m-0 p-0 contact-right">
   <div>
