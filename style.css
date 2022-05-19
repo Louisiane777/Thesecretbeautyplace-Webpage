@@ -293,5 +293,11 @@ div:nth-child(2){
   .hide {
     display: none;
   }
-      
+  #myvideo {
+      width: 100%;
+  }
+#mymap {
+    overflow: hidden;
+
+}
  
